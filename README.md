@@ -47,10 +47,10 @@ This lab explored the built-in `iris` dataset using:
 
 Implemented custom functions to calculate:
 
-- **Permutations with replacement**: \( n^r \)
-- **Permutations without replacement**: \( \frac{n!}{(n - r)!} \)
-- **Combinations without replacement**: \( \frac{n!}{r!(n - r)!} \)
-- **Combinations with replacement**: \( \frac{(n + r - 1)!}{r!(n - 1)!} \)
+- **Permutations with replacement**
+- **Permutations without replacement**
+- **Combinations without replacement**
+- **Combinations with replacement**
 
 📌 *Skills gained*: Understanding factorial math, implementing mathematical formulas in R, writing reusable functions.
 
