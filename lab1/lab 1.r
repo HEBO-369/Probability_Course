@@ -1,0 +1,15 @@
+numbers <- c(12, 7, 3, 4.2, 18, 2, 54, -21, 8, -5)
+mean_1 <- mean(numbers)
+mean_2 <- sum(numbers) / length(numbers)
+median_value <- median(numbers)
+mode_result = function(x)
+{
+frequency_table = tabulate(match(x,unique(x)))
+mode_index = which.max(frequency_table)
+return(unique(x)[mode_index])
+}
+mode_of_numbers = mode_result(numbers)
+cat("Mean (Method 1):", mean_1 )
+cat("Mean (Method 2):", mean_2 )
+cat("Median value:", median_value )
+cat("Mode value:", mode_of_numbers )
